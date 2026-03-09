@@ -57,21 +57,23 @@ body {
 
 .hero {
     padding: 5em 0;
-    color: #cce79c;
+    color: #7fff00;
     text-align: center;
-    background: url("../img/banner4.png") no-repeat center center/cover fixed;
+    overflow: hidden;
+    position: relative;
+    /* background: url("../img/banner4.png") no-repeat center center/cover fixed; */
 }
 
-/* .hero::before {
+.hero::before {
     content: " ";
     position: absolute;
     inset: 0;
-    background: url("../img/banner3.png") no-repeat center center/cover fixed;
+    background: url("../img/banner4.png") no-repeat center 30%/cover fixed;
     background-attachment: fixed;
     filter: blur(2px);
     transform: scale(1.1);
     z-index: -1;
-} */
+}
 
 .hero h1 {
     font-size: 3em;
