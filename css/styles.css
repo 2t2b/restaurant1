@@ -57,7 +57,7 @@ body {
 
 .hero {
     padding: 5em 0;
-    color: #66ff00;
+    color: #cce79c;
     text-align: center;
     background: url("../img/banner4.png") no-repeat center center/cover fixed;
 }
@@ -232,6 +232,7 @@ footer p {
     }
 
     .hero p {
+
         font-size: 1em;
     }
 
