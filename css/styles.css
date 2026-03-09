@@ -79,7 +79,7 @@ body {
 }
 
 .hero p {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .about,
@@ -232,7 +232,7 @@ footer p {
     }
 
     .hero p {
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .menu-section li {
