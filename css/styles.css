@@ -59,9 +59,10 @@ body {
     padding: 5em 0;
     color: #66ff00;
     text-align: center;
+    background: url("../img/banner4.png") no-repeat center center/cover fixed;
 }
 
-.hero::before {
+/* .hero::before {
     content: " ";
     position: absolute;
     inset: 0;
@@ -70,7 +71,7 @@ body {
     filter: blur(2px);
     transform: scale(1.1);
     z-index: -1;
-}
+} */
 
 .hero h1 {
     font-size: 3em;
